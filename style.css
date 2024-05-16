@@ -6,21 +6,44 @@
 
 
 .barra{
-    padding: auto;
-    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+
 }
 
-.logo{
-    width: 200px;
+li {
+    float: left;
     
 }
 
+li a{
+    display: block;
+    color:  #1212b4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d2d2d2;
+}
+
+.logo{
+    width: 150px;
+}
+
+body{
+    background-color: #879bff;
+}
 .phone{
-    width: 30px;
+    width: 40px;
 }
 
 .web{
-    width: 30px;
+    width: 40px;
 }
 
 .postres button{
@@ -53,3 +76,4 @@
     text-decoration: none;
 
 }
+
